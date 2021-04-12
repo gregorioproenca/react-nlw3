@@ -11,7 +11,7 @@ export default{
             about: orphanage.about,
             instructions: orphanage.instructions,
             opening_hours: orphanage.opening_hours,
-            opening_on_weekends: orphanage.opening_on_weekends ? 'Abre' : 'Não abre',
+            opening_on_weekends: orphanage.opening_on_weekends,
             images: imageView.renderMany(orphanage.images)
         }
     },
